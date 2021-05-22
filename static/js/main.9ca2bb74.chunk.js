@@ -1,0 +1,2 @@
+(this["webpackJsonpfirst-react"]=this["webpackJsonpfirst-react"]||[]).push([[0],{14:function(t,e,n){"use strict";n.r(e);var r=n(0),c=n(3),a=n.n(c),s=(n(12),n(4)),i=n(5),o=n(7),u=n(6),b=n(1),j=function(t){Object(o.a)(n,t);var e=Object(u.a)(n);function n(){return Object(s.a)(this,n),e.apply(this,arguments)}return Object(i.a)(n,[{key:"render",value:function(){return Object(b.jsx)("h1",{children:"Counter"})}}]),n}(r.Component);a.a.render(Object(b.jsx)(j,{}),document.getElementById("root"))}},[[14,1,2]]]);
+//# sourceMappingURL=main.9ca2bb74.chunk.js.map
