@@ -1,9 +1,9 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 class Counter extends Component {
   state = {
     count: 0,
-    tags: ["tag1", "tag2", "tag3"],
+    tags: ['tag1', 'tag2', 'tag3', 'tag4'],
     // tags: [],
   };
 
@@ -36,20 +36,20 @@ class Counter extends Component {
           Increment
         </button>
         <br></br>
-        {this.state.tags.length === 0 && "There are no Tags. Please create."}
+        {this.state.tags.length === 0 && 'There are no Tags. Please create.'}
         {this.renderTag()}
       </React.Fragment>
     );
   }
 
   getBadgeClasses() {
-    let classes = "btn m-2 btn-";
-    return (classes += this.state.count === 0 ? "warning" : "primary");
+    let classes = 'btn m-2 btn-';
+    return (classes += this.state.count === 0 ? 'warning' : 'primary');
   }
 
   formatCount() {
     const { count } = this.state;
-    return count === 0 ? "Zero" : count;
+    return count === 0 ? 'Zero' : count;
   }
 }
 
