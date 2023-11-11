@@ -71,4 +71,5 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Reference
 
+- [Namaste-React](https://courses.namastedev.com/learn/home/Namaste-React/)
 - tbd
